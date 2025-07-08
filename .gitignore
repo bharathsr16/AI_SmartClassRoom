@@ -1,0 +1,4 @@
+/bert_ir/bert_base_uncased.bin
+/bert_ir/distilbert_qa.bin
+/models/public/mobilenet-v2-pytorch/mobilenet_v2-b0353104.pth
+/models/public/mobilenet-v3-small-1.0-224-tf/weights_mobilenet_v3_small_224_1.0_float.h5

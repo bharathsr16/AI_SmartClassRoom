@@ -1,0 +1,12 @@
+bert_ir/
+├── bert_base_uncased.xml
+└── bert_base_uncased.bin
+
+
+
+models/
+└── public/
+    └── mobilenet-v3-small-1.0-224-tf/
+        └── FP32/
+            ├── mobilenet-v3-small-1.0-224-tf.xml
+            └── mobilenet-v3-small-1.0-224-tf.bin

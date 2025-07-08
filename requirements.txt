@@ -1,0 +1,35 @@
+# Core NLP and Speech
+transformers[torch] # For Hugging Face models, including Whisper, T5, BART, GPT-2
+# Using [torch] to ensure PyTorch is pulled if not explicitly listed
+# torch # Explicitly listing torch can also be good
+
+# Speech specific
+# soundfile # Often needed by transformers for audio loading
+# librosa # Another powerful audio library, transformers might use it or soundfile
+# datasets # For loading sample audio in test, and potentially for other data handling
+
+# OpenVINO
+openvino>=2023.2.0
+openvino-dev>=2023.2.0 # For model conversion tools
+
+# UI (Phase 3)
+gradio
+# streamlit
+
+# Other utilities
+numpy
+# pandas # Might be useful for feedback report
+
+# Previous project's (multimodal assistant) dependencies - can be pruned if not needed by new plan
+# opencv-python
+# SpeechRecognition # For microphone input, not prioritized in new plan's phase 1
+# pyttsx3
+# pytesseract
+# Pillow
+# fer
+# matplotlib
+
+# Ensure specific versions if known issues arise, e.g.:
+# protobuf < 3.20.0 # If compatibility issues with older ONNX/OpenVINO arise
+# sacremoses # Often a sub-dependency for tokenizers in summarization models
+# sentencepiece # Tokenizer for T5 and other models
