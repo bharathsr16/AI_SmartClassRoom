@@ -64,3 +64,7 @@ To run this project in your own environment, you will need:
 *   **Real-time Performance**: True real-time interaction with multiple AI models (QA, STT, TTS, Vision, FER) is computationally intensive and requires optimization (like using OpenVINO, as hinted in `convert_bert.py`) and potentially powerful hardware (GPU/NPU).
 
 This project structure provides a foundation. Getting it fully operational requires a robust local development environment where all dependencies can be correctly installed and hardware can be accessed.Tool output for `create_file_with_block`:
+
+## Results:
+
+*Watch the full  video*: [Click here to view](https://drive.google.com/file/d/1k7XGZrQ5HrLFGEgXv-UqB8Vc6QO1MPnZ/view?usp=drivesdk)
